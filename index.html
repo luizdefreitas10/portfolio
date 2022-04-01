@@ -1,36 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        #meunome {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 50px;
+            font-weight: 5000;
+            font-style: italic;
+            line-height: 40px;
+
+        }
+
+        #minhafoto {
+            border-radius: 20%;
+        }
+
+        p {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: lighter;
+            font-style: normal;
+            line-height: 20px;
+        }
+
+        ul {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-style: italic;
+            line-height: 30px;
+            list-style: square;
+        }
+
+        .edithyp {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            font-style: italic;
+            background-color: darkslategray;
+            color: black;
+            padding: 9px 35px;
+            text-decoration: none;
+        }
+        
+        .editlink {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 30px;
+            font-weight: 300;
+            font-style: italic;
+            background-color: rgb(21, 54, 54);
+            color: rgb(172, 206, 235);
+            padding: 9px 35px;
+            text-decoration: none;
+        }
+
+        body {
+            background-color:lightslategray;
+        }
+
+        #links {
+            font-family: 'Montserrat Alternates', sans-serif;
+            font-size: 30px;
+            font-weight: 100;
+            font-style: normal;
+            background-color: rgb(137, 156, 190);
+            color: rgb(47, 9, 116);
+            padding: 9px 35px;
+            text-decoration: none;
+            margin: 50px;
+        }
+        #a, #b, #c {
+            text-decoration:underline;
+            color: rgb(70, 11, 138);
+            font-style: italic;
+            font-size: 25px;
+
+        }
+    
+    </style>
     <title>Meu Portifólio Web</title>
 </head>
+
 <body>
     <h1 id="meunome"> Luiz de Freitas Lima Neto</h1>
 
-    <img id="minhafoto" src="https://media-exp1.licdn.com/dms/image/C4E03AQFN5WyY8cfkEQ/profile-displayphoto-shrink_800_800/0/1648487910529?e=1654128000&v=beta&t=IlJc0dcthHV9qPi_CKu6XRZMfk7wnuiDqNJzL9d1O6E" alt="Foto de Luiz" width="500px">
+    <img id="minhafoto"
+        src="https://media-exp1.licdn.com/dms/image/C4E03AQFN5WyY8cfkEQ/profile-displayphoto-shrink_800_800/0/1648487910529?e=1654128000&v=beta&t=IlJc0dcthHV9qPi_CKu6XRZMfk7wnuiDqNJzL9d1O6E"
+        alt="Foto de Luiz" width="500px">
     <br>
     <br>
-    <p id="lugarqueveio"><em>Sou <strong>BRASILEIRO</strong>, moro na cidade de <strong>Recife</strong>, capital do estado de <strong>Pernambuco </strong>.</em></p>
+    <p><em>Sou <strong>BRASILEIRO</strong>, moro na cidade de <strong>Recife</strong>, capital do
+            estado de <strong>Pernambuco </strong>.</em></p>
     <ul id="qualificacoes">
+        <li>Estudante de linguagens de programação e desenvolvimento web</li>
         <li>Advogado</li>
         <li>Trader e investidor</li>
         <li>Amante de esportes</li>
-        <li>Estudante de linguagens de programação e desenvolvimento web</li>
         <li>Amante de música</li>
         <li>Apaixonado por tecnologia</li>
-        <li><strong>Pai de Bernadinho e marido de Bruna!</strong></li>
+        <li><strong>Pai de Bernardo e marido de Bruna!</strong></li>
+        <br>
     </ul>
-    <a href="#minhafoto">Minha Foto</a>
-    <br>
-    <a href="https://www.linkedin.com/in/luiz-de-freitas-7973bb167/" target="_blank">LinkedIn</a>
+    <a class="edithyp" href="#minhafoto">Minha Foto</a>
+    <a class="editlink" href="https://www.linkedin.com/in/luiz-de-freitas-7973bb167/" target="_blank">LinkedIn</a>
 
-    <ul>
-        <li><a href="#meunome">Meu nome</a></li>
-        <li><a href="#lugarqueveio">Nacionalidade e cidade/estado</a></li>
-        <li><a href="#qualificacoes">Qualificações</a></li>
-        
+    <ul id="links">
+        <li><a id="a" href="#meunome">Meu nome</a></li>
+        <li><a id="b" href="#lugarqueveio">De onde venho</a></li>
+        <li><a id="c" href="#qualificacoes">Qualificações</a></li>
+
     </ul>
 
 </body>
-</html>
 
+</html>
