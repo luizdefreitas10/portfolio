@@ -72,3 +72,23 @@ body {
     font-size: 25px;
 
 }
+
+div {
+    
+}
+
+.text-centered {
+    text-align: center;
+}
+
+#minhafoto {
+    float: left;
+    margin-right: 30px;
+    padding: 10px;
+    background-color: rgb(37, 99, 128);
+}
+
+.image-container {
+    height: 500px;
+    margin-bottom: 50px;
+}
