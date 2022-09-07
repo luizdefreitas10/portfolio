@@ -1,0 +1,28 @@
+.div-header-class {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+nav a {
+  opacity: 0.7;
+  color: rgb(73, 68, 68);
+  background-color: rgb(35, 35, 37);
+  margin: 0 7px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: rgb(35, 35, 37);
+  color: white;
+  opacity: 1.0;
+}
+
+h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
