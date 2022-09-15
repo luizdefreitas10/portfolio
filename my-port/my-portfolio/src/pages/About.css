@@ -13,6 +13,7 @@
 
 
 .article-class p {
+  line-height: 25px;
   text-align: justify;
 }
 
