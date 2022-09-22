@@ -1,7 +1,7 @@
 import React from 'react';
 import { useContext } from 'react';
 import MyContext from '../context/MyContext';
-import { FaHome } from 'react-icons/fa';
+// import { FaHome } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './Header.css';
 

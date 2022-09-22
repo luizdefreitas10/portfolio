@@ -1,0 +1,20 @@
+.father-div-projects {
+  display: flex;
+  height: 65vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.father-div-projects a img {
+  display: flex;
+  border-radius: 5px;
+}
+
+.father-div-projects a {
+  text-decoration: none;
+}
+
+.father-div-projects a h1 {
+  font-size: 15px;
+  text-align: center;
+}
