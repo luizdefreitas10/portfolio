@@ -12,14 +12,14 @@ function Projects () {
         <a href="https://react-trivia-eta.vercel.app/" target="_blank" rel="noreferrer">
           <img src="TriviaApp.png" alt="Trivia Login Page Img"
           height="150px"
-          width="200px"
+          width="150px"
           />
           <h1>Trivia Game App</h1>
         </a>
         <a href="https://trybe-wallet-lac.vercel.app/" target="_blank" rel="noreferrer">
           <img src="trybewallet.png" alt="TrybeWallet Login Page Img"
           height="150px"
-          width="200px"
+          width="150px"
           />
           <h1>TrybeWallet App</h1>
         </a>
