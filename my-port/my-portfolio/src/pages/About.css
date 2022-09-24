@@ -7,7 +7,7 @@
   color: white;
   border-radius: 5px;
   padding: 15px;
-  margin: 5px 15px;
+  margin: 25px 15px;
   background-color: #14213d;
 }
 
@@ -20,4 +20,10 @@
 .clock-class {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+  .article-class {
+    margin-top: 10px;
+  }
 }
