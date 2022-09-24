@@ -6,12 +6,15 @@
   align-items: center;
 }
 
-.father-div-projects a img {
+.father-div-projects a div img {
   display: flex;
   border-radius: 5px;
 }
 
 .father-div-projects a {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
   text-decoration: none;
 }
 
@@ -19,4 +22,16 @@
   color: #12213d;
   font-size: 18px;
   text-align: center;
+}
+
+
+.img-class-projects {
+  box-shadow: 2px 2px 2px #14213d;
+  border-radius: 10px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  background-color: #14213d;
+  justify-content: center;
+  width: 160px;
 }

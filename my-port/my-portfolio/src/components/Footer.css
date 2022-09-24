@@ -5,6 +5,7 @@
 }
 
 .border-div-class-2 {
+  box-shadow: 0px 1px 6px #14213d;
   opacity: 1;
   display: flex;
   justify-content: center;

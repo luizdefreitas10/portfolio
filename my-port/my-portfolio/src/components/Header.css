@@ -7,6 +7,7 @@
 }
 
 nav a {
+  box-shadow: 0px 1px 6px #14213d;
   opacity: 1;
   color: #fca311;
   background-color: #14213d;
@@ -17,6 +18,7 @@ nav a {
 }
 
 nav a:hover {
+  box-shadow: 1px 2px 5px #14213d;
   opacity: 0.8;
 }
 
@@ -26,13 +28,16 @@ h1 {
   font-size: 20px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 710px) {
   .div-header-class {
     display: flex;
     flex-direction: column;
     row-gap: 25px;
     margin-bottom: 10px;
     padding: 25px;
+  }
+  nav {
+    margin-bottom: 15px;
   }
 }
 
@@ -47,4 +52,15 @@ p {
 
 span {
   font-weight: 350;
+}
+
+.img-class-header {
+  box-shadow: 2px 2px 2px #14213d;
+  border-radius: 10px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  background-color: #14213d;
+  justify-content: center;
+  width: 110px;
 }
