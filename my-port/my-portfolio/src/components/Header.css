@@ -6,9 +6,9 @@
 }
 
 nav a {
-  opacity: 0.5;
-  color: white;
-  background-color: rgb(35, 35, 37);
+  opacity: 1;
+  color: #fca311;
+  background-color: #14213d;
   margin: 0 7px;
   padding: 10px;
   text-decoration: none;
@@ -16,9 +16,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(35, 35, 37);
-  color: white;
-  opacity: 1.0;
+  opacity: 0.8;
 }
 
 h1 {
@@ -33,4 +31,8 @@ h1 {
     flex-direction: column;
     row-gap: 25px;
   }
+}
+
+.div-header-class h1 {
+  color: #14213d;
 }

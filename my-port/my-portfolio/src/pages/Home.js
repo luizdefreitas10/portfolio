@@ -28,24 +28,24 @@ function Home() {
           onChange={({ target: { value } }) => setName(value)}
         />
         <Link to="/about">
-          <BsPlayCircle size={25} color="white" className="play-icon"/>
+          <BsPlayCircle size={25} color="#14213d" className="play-icon"/>
         </Link>
       </div>
       </div>
       <div className="father-class">
         <div className="border-div-class">
           <a href="https://www.linkedin.com/in/luiz-de-freitas-7973bb167/" target="_blank" rel="noreferrer">
-            <BsLinkedin size={40} color="white" fontWeight="light"/>
+            <BsLinkedin size={40} color="#fca311" fontWeight="light"/>
           </a>
         </div>
         <div className="border-div-class">
           <a href="https://github.com/luizdefreitas10" target="_blank" rel="noreferrer">
-            <BsGithub size={40} color="white" fontWeight="light"/>
+            <BsGithub size={40} color="#fca311" fontWeight="light"/>
           </a>
         </div>
         <div className="border-div-class">
           <a href="https://www.instagram.com/luizinho11/" target="_blank" rel="noreferrer">
-            <BsInstagram size={40} color="white" fontWeight="light"/>
+            <BsInstagram size={40} color="#fca311" fontWeight="light"/>
           </a>
         </div>
       </div>

@@ -1,6 +1,6 @@
 .father-div-projects {
   display: flex;
-  height: 65vh;
+  height: 600px;
   justify-content: space-evenly;
   align-items: center;
 }
