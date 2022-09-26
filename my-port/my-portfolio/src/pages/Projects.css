@@ -1,7 +1,7 @@
 .father-div-projects {
   margin-top: 15px;
   display: flex;
-  height: 600px;
+  height: 60vh;
   justify-content: space-evenly;
   align-items: center;
 }
