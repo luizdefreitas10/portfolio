@@ -10,9 +10,9 @@ function About () {
   <div className="div-father-article">
     <Header/>
     <article className="article-class">
-      <p>Olá! Bem-vindo ao meu portfólio. Meu nome é Luiz de Freitas, sou natural de Recife, Pernambuco, Brasil. Sou desenvolvedor web front-end, atualmente em transição de carreira, e estou cursando Desenvolvimento Web pela <a href="https://www.betrybe.com/" style={{textDecoration: "none", color: "#fca311"}} target="_blank" rel="noreferrer">Trybe</a>. No módulo de front-end, realizei projetos utilizando JavaScript, React, Redux, Context API com Hooks, e testes, com React Test Library, Jest e Node Js. Firmei conceitos sólidos em lógica de programação me sinto confortável em por em prática minhas habilidades, construindo aplicações que possam servir de ajuda e utilidade a quem precisa.</p>
-      <p>Veja alguns dos meus <Link to="/projects" style={{textDecoration: "none", color: "#fca311"}}>projetos</Link>.</p>
-      <p>Atualmente, estou cursando o módulo de back-end, onde já pude estudar e firmar conceitos sobre Docker e SQL.</p>
+      <p>Hi! Welcome to my portfolio. My name is Luiz de Freitas, I'm from Recife, Pernambuco, Brazil. I'm a front-end web developer, currently in career transition, and I'm studying Web Development at <a href="https://www.betrybe.com/" style={{textDecoration: "none", color: "#fca311"}} target="_blank" rel="noreferrer">Trybe</a>. In the front-end module, I carried out projects using JavaScript, React, Redux, Context API with Hooks, and tests, with React Test Library, Jest and Node Js. I have solid concepts in programming logic and I feel comfortable putting my skills into practice, building applications that can be of help and utility to those who need it.</p>
+      <p>See some of my <Link to="/projects" style={{textDecoration: "none", color: "#fca311"}}>projects</Link>.</p>
+      <p>Currently, I'm studying the back-end module, where I was able to study and establish concepts about Docker and SQL.</p>
     </article>
     <Footer/>
     <Clock/>
