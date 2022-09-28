@@ -27,6 +27,15 @@ function Projects () {
           </div>
           <h1>TrybeWallet App</h1>
         </a>
+        <a href="https://shopping-cart-projectjs.vercel.app/" target="_blank" rel="noreferrer">
+          <div className="img-class-projects">
+            <img src="shoppingCart.png" alt="Shopping Cart App Img"
+            height="150px"
+            width="150px"
+            />
+          </div>
+          <h1>Shopping Cart App</h1>
+        </a>
       </div>
       <Footer />
       <Clock />

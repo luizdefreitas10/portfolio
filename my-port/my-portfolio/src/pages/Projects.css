@@ -35,3 +35,11 @@
   justify-content: center;
   width: 160px;
 }
+
+@media screen and (max-width: 650px) {
+  .father-div-projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
