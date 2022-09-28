@@ -16,7 +16,7 @@ function Projects () {
             width="150px"
           />
           </div>
-          <h1>Trivia Game App</h1>
+          <h1>Trivia Game</h1>
         </a>
         <a href="https://trybe-wallet-lac.vercel.app/" target="_blank" rel="noreferrer">
           <div className="img-class-projects">
@@ -25,7 +25,7 @@ function Projects () {
             width="150px"
             />
           </div>
-          <h1>TrybeWallet App</h1>
+          <h1>TrybeWallet</h1>
         </a>
         <a href="https://shopping-cart-projectjs.vercel.app/" target="_blank" rel="noreferrer">
           <div className="img-class-projects">
@@ -34,7 +34,16 @@ function Projects () {
             width="150px"
             />
           </div>
-          <h1>Shopping Cart App</h1>
+          <h1>Shopping Cart</h1>
+        </a>
+        <a href="https://solar-system-info.vercel.app/" target="_blank" rel="noreferrer">
+          <div className="img-class-projects">
+            <img src="solar-system-react-app.png" alt="Solar System App Img"
+            height="150px"
+            width="150px"
+            />
+          </div>
+          <h1>Solar System</h1>
         </a>
       </div>
       <Footer />

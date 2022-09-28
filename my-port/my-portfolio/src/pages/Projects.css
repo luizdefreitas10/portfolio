@@ -36,7 +36,7 @@
   width: 160px;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .father-div-projects {
     display: flex;
     flex-direction: column;
