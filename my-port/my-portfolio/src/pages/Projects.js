@@ -45,6 +45,15 @@ function Projects () {
           </div>
           <h1>Solar System</h1>
         </a>
+        <a href="https://pixels-art-cql3.vercel.app/" target="_blank" rel="noreferrer">
+          <div className="img-class-projects">
+            <img src="pixel-art.png" alt="Pixels Art App Img"
+            height="150px"
+            width="150px"
+            />
+          </div>
+          <h1>Pixels Art</h1>
+        </a>
       </div>
       <Footer />
       <Clock />

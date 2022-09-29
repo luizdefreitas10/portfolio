@@ -26,6 +26,7 @@
 
 
 .img-class-projects {
+  opacity: 1.0;
   box-shadow: 2px 2px 2px #14213d;
   border-radius: 10px;
   height: 160px;
@@ -36,7 +37,19 @@
   width: 160px;
 }
 
-@media screen and (max-width: 700px) {
+.img-class-projects:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 900px) {
+  .father-div-projects {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px) {
   .father-div-projects {
     display: flex;
     flex-direction: column;
