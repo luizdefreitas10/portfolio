@@ -5,6 +5,7 @@ import { Provider } from './context/MyContext';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
+import Contact from './pages/Contact';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/about" element={ <About/> }/>
           <Route path="/projects" element={ <Projects/> }/>
           <Route exact path="/projects/:id" element={ <ProjectDetails /> }/>
+          <Route path="/contact" element={ <Contact /> }/>
         </Routes>
       </BrowserRouter>
     </Provider>

@@ -24,6 +24,9 @@ function Header () {
         <Link to="/about">
           About Me
         </Link>    
+        <Link to="/contact">
+          Contact
+        </Link>    
       </nav>
     </div>
   );

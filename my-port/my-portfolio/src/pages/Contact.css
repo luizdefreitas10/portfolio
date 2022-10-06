@@ -1,0 +1,35 @@
+.article-class-contact a {
+  text-decoration: none;
+  font-style: italic;
+  color: #fff;
+  font-weight: 200;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-class-contact {
+  box-shadow: 2px 2px 2px #14213d;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 25px 20px;
+  background-color: #14213d;
+}
+
+.article-class-contact h1 {
+  color: #fca311;
+  margin-bottom: 10px;
+}
+
+.article-class-contact p {
+  line-height: 25px;
+}
+
+.article-class-contact a {
+  line-height: 25px;
+}
+
+/* textarea {
+  display: flex;
+  justify-content: center;
+} */
