@@ -12,6 +12,7 @@
 }
 
 .article-class-2 h1 {
+  color: #fca311;
   text-align: center;
 }
 
@@ -19,6 +20,7 @@
   border-radius: 10px;
   display: flex;
   align-self: center;
+  margin-bottom: 10px;
 }
 .article-class-2 h2 {
   font-style: italic;
@@ -31,4 +33,8 @@
   color: #fca311;
   text-decoration: none;
   font-size: 25px;
+}
+
+.article-class-2 p {
+  text-align: justify;
 }
