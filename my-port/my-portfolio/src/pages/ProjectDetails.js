@@ -16,7 +16,9 @@ function ProjectDetails () {
       { [mockData.find((projectFinded) => projectFinded.id === Number(id))].map((project) => (
         <div key={project.id} className="article-class-2">
           <h1>{ project.name }</h1>
-          <img src={ `${project.src}`} alt={`${project.name} - application`} style={{ height: '150px', width: '150px' }}/>
+          <div className="article-class-img-div">
+            <img src={ `${project.src}`} alt={`${project.name} - application`} style={{ height: '150px', width: '150px' }}/>
+          </div>
           <p>{ project.resume }</p>
           <h2>Technologies used in the development of this project: </h2>
           <p>{ project.stacks.map((stack) => (
