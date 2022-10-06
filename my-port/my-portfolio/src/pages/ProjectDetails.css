@@ -1,0 +1,34 @@
+.article-class-2 {
+  row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 2px #14213d;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 25px 20px;
+  background-color: #14213d;
+}
+
+.article-class-2 h1 {
+  text-align: center;
+}
+
+.article-class-2 img {
+  border-radius: 10px;
+  display: flex;
+  align-self: center;
+}
+.article-class-2 h2 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.article-class-2 a {
+  text-align: center;
+  color: #fca311;
+  text-decoration: none;
+  font-size: 25px;
+}

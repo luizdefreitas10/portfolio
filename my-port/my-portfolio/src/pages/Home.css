@@ -52,6 +52,7 @@ main {
   flex-direction: column;
   justify-content: center;
   border-radius: 10px;
+  height: 250px;
   /* margin-bottom: 100px; */
   width: 250px;
 }
