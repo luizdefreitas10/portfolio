@@ -35,17 +35,17 @@ function Home() {
       <div className="father-class">
         <div className="border-div-class">
           <a href="https://www.linkedin.com/in/luiz-de-freitas-7973bb167/" target="_blank" rel="noreferrer">
-            <BsLinkedin size={40} color="#fca311" fontWeight="light"/>
+            <BsLinkedin size={30} color="#fca311" fontWeight="light"/>
           </a>
         </div>
         <div className="border-div-class">
           <a href="https://github.com/luizdefreitas10" target="_blank" rel="noreferrer">
-            <BsGithub size={40} color="#fca311" fontWeight="light"/>
+            <BsGithub size={30} color="#fca311" fontWeight="light"/>
           </a>
         </div>
         <div className="border-div-class">
           <a href="https://www.instagram.com/luizinho11/" target="_blank" rel="noreferrer">
-            <BsInstagram size={40} color="#fca311" fontWeight="light"/>
+            <BsInstagram size={30} color="#fca311" fontWeight="light"/>
           </a>
         </div>
       </div>
