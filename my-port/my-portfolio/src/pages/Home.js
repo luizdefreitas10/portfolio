@@ -3,7 +3,6 @@ import './Home.css';
 import { BsLinkedin, BsGithub, BsInstagram, BsPlayCircle } from 'react-icons/bs';
 import MyContext from '../context/MyContext';
 import { Link } from 'react-router-dom';
-// import Clock from '../components/Clock';
 
 function Home() {
    const { name, setName } = useContext(MyContext);

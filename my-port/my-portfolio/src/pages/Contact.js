@@ -1,5 +1,4 @@
 import React from 'react';
-import Clock from '../components/Clock';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import './Contact.css';
@@ -20,7 +19,6 @@ function Contact () {
         <textarea></textarea>
       </form> */}
       <Footer/>
-      <Clock/>
     </div>
   )
 };

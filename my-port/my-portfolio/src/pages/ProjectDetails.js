@@ -1,6 +1,5 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import Clock from '../components/Clock';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { mockData } from '../utils/mockData';
@@ -30,7 +29,6 @@ function ProjectDetails () {
         </div>
       )) }
       <Footer />
-      <Clock />
     </div>
   );
 }

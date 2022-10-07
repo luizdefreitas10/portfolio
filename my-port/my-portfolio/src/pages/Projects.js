@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Clock from '../components/Clock';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 // import ProjectDetails from './ProjectDetails';
@@ -73,7 +72,6 @@ function Projects () {
         </a> */}
       </div>
       <Footer />
-      <Clock />
     </div>
   );
 }

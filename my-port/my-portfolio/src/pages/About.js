@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from '../components/Header';
-import Clock from '../components/Clock';
 import Footer from '../components/Footer';
 import './About.css';
 import { Link } from 'react-router-dom';
@@ -21,7 +20,6 @@ function About () {
       <p></p>  
     </section>   */}
     <Footer/>
-    <Clock/>
   </div>
  );
 }
