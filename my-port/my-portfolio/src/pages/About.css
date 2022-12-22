@@ -28,3 +28,13 @@
     margin-top: 10px;
   }
 }
+
+.ul-class {
+  text-decoration: none;
+  list-style: none;
+  font-weight: 300;
+}
+
+.svg-class {
+  margin: 0 15px;
+}

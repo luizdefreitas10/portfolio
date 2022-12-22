@@ -19,13 +19,13 @@ function ProjectDetails () {
             <img src={ `${project.src}`} alt={`${project.name} - application`} style={{ height: '150px', width: '150px' }}/>
           </div>
           <p>{ project.resume }</p>
-          <h2>Technologies used in the development of this project: </h2>
+          <h2>Tecnologias utilizadas durante o desenvolvimento deste projeto: </h2>
           <p>{ project.stacks.map((stack) => (
             <div key={stack}>
               <p>{ `- ${stack}` }</p>
             </div>
           )) }</p>
-          <a href={ project.vercel } target="_blank" rel="noreferrer">See it working!</a>
+          <a href={ project.vercel } target="_blank" rel="noreferrer">Veja funcionando!</a>
         </div>
       )) }
       <Footer />

@@ -13,20 +13,20 @@ function Header () {
       <div className="img-class-header">
         <img src={mainImg} alt="Imagem de Luiz" style={{ height: "100px", width: "100px", borderRadius: "5px" }}/>
       </div>
-      { name ? <h1>Welcome, <span>{ name }</span></h1> : <h1>Welcome, <span>Guest</span></h1> }
+      { name ? <h1>Bem-vindo, <span>{ name }</span></h1> : <h1>Bem-vindo, <span>convidado(a)</span></h1> }
       <nav>
         <Link to="/">
           Home
         </Link>
         <Link to="/projects">
-          Projects
+          Projetos
         </Link>
         <Link to="/about">
-          About Me
-        </Link>    
+          Sobre mim
+        </Link>
         <Link to="/contact">
-          Contact
-        </Link>    
+          Contato
+        </Link>
       </nav>
     </div>
   );
