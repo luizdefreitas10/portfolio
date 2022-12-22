@@ -18,11 +18,11 @@ function Header () {
         <Link to="/">
           Home
         </Link>
-        <Link to="/projects">
-          Projetos
-        </Link>
         <Link to="/about">
           Sobre mim
+        </Link>
+        <Link to="/projects">
+          Projetos
         </Link>
         <Link to="/contact">
           Contato

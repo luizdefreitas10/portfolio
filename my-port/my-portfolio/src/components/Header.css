@@ -28,7 +28,7 @@ h1 {
   font-size: 20px;
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 910px) {
   .div-header-class {
     display: flex;
     flex-direction: column;
@@ -66,7 +66,7 @@ span {
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .div-header-class nav a {
     display: flex;
     flex-direction: column;

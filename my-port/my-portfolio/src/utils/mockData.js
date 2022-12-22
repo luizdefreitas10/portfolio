@@ -3,6 +3,8 @@ import trybewalletImg from '../images/trybewallet.png'
 import shoppingCartImg from '../images/shoppingCart.png'
 import solarSystemImg from '../images/solar-system-react-app.png'
 import pixelArtImg from '../images/pixel-art.png'
+import blogsApiImg from '../images/1669930711-blogs-api.webp'
+import storeManagerImg from '../images/Captura de ecrã 2022-12-22, às 20.22.38.png';
 
 export const mockData = [{
   id: 1,
@@ -39,4 +41,18 @@ export const mockData = [{
   resume: 'Pixels Art é um aplicativo que permite o usuário realizar arte através de pixels. A cada vez que a página é carregada, é gerada uma paleta aleatória de cores, permitindo o usuário selecionar as cores e pintar o quadro de pixels à sua maneira.',
   stacks: ["HTML", "JavaScript", "CSS"],
   vercel: 'https://pixels-art-cql3.vercel.app/'
+}, {
+  id: 6,
+  name: 'Blogs API',
+  src: blogsApiImg,
+  resume: 'Esta é uma API e um banco de dados de gerenciamento de um blog, onde é possível buscar, criar, editar e deletar postagens. Seguindo a arquitetura MSC (model, service, controller) e os princípios REST, aplicação foi desenvolvida utilizando NodeJs e o pacote Sequelize para fazer um CRUD de posts.',
+  stacks: ['NodeJs', 'JavaScript', 'Express', 'Sequelize', 'Joi', 'MySQL' ],
+  vercel: 'https://github.com/luizdefreitas10/blogs-api'
+}, {
+  id: 7,
+  name: 'API Store Manager',
+  src: storeManagerImg,
+  resume: 'Esta é uma API RESTFULL desenvolvida através da arquitetura MSC (model, service, controller), e funciona como sistema de gerenciamento de vendas no formato dropshipping em que será possível criar, visualizar, deletar e atualizar produtos e vendas.',
+  stacks: ['NodeJs', 'JavaScript', 'Express', 'Mocha', 'Chai', 'Sinon', 'Joi'],
+  vercel: 'https://github.com/luizdefreitas10/store-manager-api',
 }];
