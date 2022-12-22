@@ -10,7 +10,7 @@ function Home() {
     <main>
       <div className="center-div">
       { name ? (<div className="welcome-class">
-        <h1>Welcome, <span>{ `${name}` }</span> !</h1>
+        <h1>Bem-vindo, <span>{ `${name}` }</span> !</h1>
         </div>) : null }
         <div className="img-class">
           <img src="luiz-sameiro.JPG" alt="Imagem de Luiz"/>
